@@ -19,3 +19,4 @@ Assuming you did the initial setup from [Day 1](../day_1/README.md), follow the 
 ## References
 
 - [derive.Accounts](https://docs.rs/anchor-lang/latest/anchor_lang/derive.Accounts.html)
+- [Accounts Struct](https://www.anchor-lang.com/docs/the-accounts-struct)
