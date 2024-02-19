@@ -29,7 +29,7 @@ anchor build
 6. Run the test validator node: `solana-test-validator`
 7. Sync program_id with Anchor key: `anchor keys sync`
 8. Airdrop SOL: `solana airdrop 100`
-9. Run tests: `anchor test -- --skip-local-validator`
+9. Run tests: `anchor test --skip-local-validator`
 
 ## Troubleshooting and References
 
