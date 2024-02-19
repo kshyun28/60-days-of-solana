@@ -21,7 +21,7 @@ pub mod day_6 {
 
     pub fn age_checker_ternary(_ctx: Context<Initialize>,
                                age: u64) -> Result<()> {
-        let result = if age >= 18 {"You are 18 years old or above"} else { "You are below 18 years old" };
+        let result = if age % 2 == 0 { true } else { false };
         msg!("{:?}", result);
         Ok(())
     }
