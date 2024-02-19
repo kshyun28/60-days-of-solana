@@ -2,6 +2,8 @@
 
 My attempt at learning [Solana](https://solana.com/) [program (smart contract)](https://solana.com/docs/core/programs) development through [RareSkill's Solana course](https://www.rareskills.io/solana-tutorial).
 
+> Originally, I was trying to create a single anchor project and add the daily exercises under `programs` (`programs/day_1`, `programs/day_2`, `programs/day_x`), but this made following along with the tutorial harder (longer running tests, Anchor not supporting deployment/testing of individual programs out of the box).
+
 ## Directory
 
 - [Day 1: Hello World (and troubleshooting Solana installation)](day_1/README.md)
@@ -13,7 +15,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 
 ## Setup
 
-For initial setup of dependencies required for Solana program development, follow the [day 1 tutorial](day_1/README.md).
+For the initial setup of dependencies required for Solana program development, follow the [day 1 tutorial](day_1/README.md).
 
 Then for creating a new Anchor project:
 
@@ -21,6 +23,21 @@ Then for creating a new Anchor project:
 2. Go to folder: `cd day_x`
 3. Remove git repository: `rm -rf .git` (since `60-days-of-solana` is the main git repository)
 4. Follow the tutorial for each day
+
+## Troubleshooting
+
+Here is a list of common issues that I've encountered while going through the tutorials and how to resolve them.
+
+- `Error: Deploying program failed: RPC response error -32002: Transaction simulation failed: Error processing Instruction 0: account data too small for instruction`
+
+  - [StackOverflow](https://stackoverflow.com/questions/71267943/solana-deploy-account-data-too-small-for-instruction)
+
+  To resolve this:
+
+  1.  Delete `day_x/target/deploy`
+  2.  Build Anchor program: `anchor build`
+  3.  Sync keys: `anchor keys sync`
+  4.  Redeploy or retest: `anchor deploy` or `anchor test`
 
 ## References
 
