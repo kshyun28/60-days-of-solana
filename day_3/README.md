@@ -4,8 +4,6 @@
 
 ## Setup
 
-Assuming you did the initial setup from [Day 1](../day_1/README.md), follow the [RareSkills tutorial](https://www.rareskills.io/post/anchor-idl) for detailed steps.
-
 1. Configure Solana to run on localhost: `solana config set --url localhost`
 2. Run the test validator node: `solana-test-validator`
 3. Build Anchor Program: `anchor build`
