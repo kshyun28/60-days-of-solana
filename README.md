@@ -5,6 +5,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 ## Directory
 
 - [Day 1: Hello World (and troubleshooting Solana installation)](day_1/README.md)
+- [Day 2: Function arguments, math, and arithmetic overflow](day_2/README.md)
 
 ## References
 
