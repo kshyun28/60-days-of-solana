@@ -26,10 +26,11 @@ anchor build
 ```
 
 5. Configure Solana to run on localhost: `solana config set --url localhost`
-6. Run the test validator node: `solana-test-validator`
-7. Sync program_id with Anchor key: `anchor keys sync`
-8. Airdrop SOL: `solana airdrop 100`
-9. Run tests: `anchor test --skip-local-validator`
+6. Run the test validator node on another terminal: `solana-test-validator`
+7. Run Solana logs on another terminal: `solana logs`
+8. Sync program_id with Anchor key: `anchor keys sync`
+9. Airdrop SOL: `solana airdrop 100`
+10. Run tests: `anchor test --skip-local-validator`
 
 ## Troubleshooting and References
 

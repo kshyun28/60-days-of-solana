@@ -5,10 +5,11 @@
 ## Setup
 
 1. Configure Solana to run on localhost: `solana config set --url localhost`
-2. Run the test validator node: `solana-test-validator`
-3. Build Anchor Program: `anchor build`
-4. Sync program_id with Anchor key: `anchor keys sync`
-5. Run tests: `anchor test --skip-local-validator`
+2. Run the test validator node on another terminal: `solana-test-validator`
+3. Run Solana logs on another terminal: `solana logs`
+4. Build Anchor program: `anchor build`
+5. Sync program_id with Anchor key: `anchor keys sync`
+6. Run tests: `anchor test --skip-local-validator`
 
 ## Exercises
 
