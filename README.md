@@ -8,6 +8,17 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 2: Function arguments, math, and arithmetic overflow](day_2/README.md)
 - [Day 3: Anchor function magic and the Interface Definition Language](day_3/README.md)
 
+## Setup
+
+For initial setup of dependencies required for Solana program development, follow the [day 1 tutorial](day_1/README.md).
+
+Then for creating a new Anchor project:
+
+1. Initialize a project: `anchor init day_x`
+2. Go to folder: `cd day_x`
+3. Remove git repository: `rm -rf .git` (since `60-days-of-solana` is the main git repository)
+4. Follow the tutorial for each day
+
 ## References
 
 - [RareSkill's Solana course](https://www.rareskills.io/solana-tutorial)
