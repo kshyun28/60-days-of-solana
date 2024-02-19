@@ -9,6 +9,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 3: Anchor function magic and the Interface Definition Language](day_3/README.md)
 - [Day 4: Solana reverts, errors, and basic access control](day_4/README.md)
 - [Day 5: Where is the constructor? About anchor deploy](day_5/README.md)
+- [Day 6: Solidity Translations to Rust and Solana](day_6/README.md)
 
 ## Setup
 
