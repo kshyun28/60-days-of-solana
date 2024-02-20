@@ -15,6 +15,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 7: The unusual syntax of Rust](day_7/README.md)
 - [Day 8: Understanding function-like macros in Rust](day_8/README.md)
 - [Day 9: Rust Structs and Attribute-like and Custom Derive Macros](day_9/README.md)
+- [Day 10: Translating Solidity function visibility and contract inheritance to Solana](day_10/README.md)
 
 ## Setup
 
