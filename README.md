@@ -6,15 +6,15 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 
 ## Directory
 
-- [Day 1: Hello World (and troubleshooting Solana installation)](day_1/README.md)
-- [Day 2: Function arguments, math, and arithmetic overflow](day_2/README.md)
-- [Day 3: Anchor function magic and the Interface Definition Language](day_3/README.md)
-- [Day 4: Solana reverts, errors, and basic access control](day_4/README.md)
-- [Day 5: Where is the constructor? About anchor deploy](day_5/README.md)
-- [Day 6: Solidity Translations to Rust and Solana](day_6/README.md)
-- [Day 7: The unusual syntax of Rust](day_7/README.md)
-- [Day 8: Understanding function-like macros in Rust](day_8/README.md)
-- [Day 9: Rust Structs and Attribute-like and Custom Derive Macros](day_9/README.md)
+- [Day 1: Hello World (and troubleshooting Solana installation)](day_01/README.md)
+- [Day 2: Function arguments, math, and arithmetic overflow](day_02/README.md)
+- [Day 3: Anchor function magic and the Interface Definition Language](day_03/README.md)
+- [Day 4: Solana reverts, errors, and basic access control](day_04/README.md)
+- [Day 5: Where is the constructor? About anchor deploy](day_05/README.md)
+- [Day 6: Solidity Translations to Rust and Solana](day_06/README.md)
+- [Day 7: The unusual syntax of Rust](day_07/README.md)
+- [Day 8: Understanding function-like macros in Rust](day_08/README.md)
+- [Day 9: Rust Structs and Attribute-like and Custom Derive Macros](day_09/README.md)
 - [Day 10: Translating Solidity function visibility and contract inheritance to Solana](day_10/README.md)
 - [Day 11: Block variables in Solana: block.timestamp and block.number and others](day_11/README.md)
 
