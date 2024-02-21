@@ -19,6 +19,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 11: Block variables in Solana: block.timestamp and block.number and others](day_11/README.md)
 - [Day 12: Beyond the block: Sysvars](day_12/README.md)
 - [Day 13: Native Programs: Sysvars](day_13/README.md)
+- [Day 14: tx.origin, msg.sender, and onlyOwner in Solana](day_14/README.md)
 
 ## Setup
 
