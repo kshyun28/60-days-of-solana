@@ -21,6 +21,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 13: Native Programs: Sysvars](day_13/README.md)
 - [Day 14: tx.origin, msg.sender, and onlyOwner in Solana](day_14/README.md)
 - [Day 15: Transaction fees and compute units](day_15/README.md)
+- [Day 16: Accounts in Solana](day_16/README.md)
 
 ## Setup
 
