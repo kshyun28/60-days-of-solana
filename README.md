@@ -23,6 +23,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 15: Transaction fees and compute units](day_15/README.md)
 - [Day 16: Accounts in Solana](day_16/README.md)
 - [Day 17: Writing to storage](day_17/README.md)
+- [Day 18: Reading Accounts from Typescript — an alternative to public variables and view functions](day_18/README.md)
 
 ## Setup
 
