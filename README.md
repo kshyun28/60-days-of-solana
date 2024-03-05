@@ -27,6 +27,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 19: Creating mappings and nested mappings in Solana](day_19/README.md)
 - [Day 20: Cost of storage, maximum storage size, and account resizing](day_20/README.md)
 - [Day 21: Reading an account balance in Rust: address(account).balance in Solana](day_21/README.md)
+- [Day 22: More differences: modifiers, view pure, payable, and fallback in Solana](day_22/README.md)
 
 ## Setup
 
