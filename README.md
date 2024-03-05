@@ -25,6 +25,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 17: Writing to storage](day_17/README.md)
 - [Day 18: Reading Accounts from Typescript — an alternative to public variables and view functions](day_18/README.md)
 - [Day 19: Creating mappings and nested mappings in Solana](day_19/README.md)
+- [Day 20: Cost of storage, maximum storage size, and account resizing](day_20/README.md)
 
 ## Setup
 
