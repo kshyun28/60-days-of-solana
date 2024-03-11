@@ -30,6 +30,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 22: More differences: modifiers, view pure, payable, and fallback in Solana](day_22/README.md)
 - [Day 23: Building a payment splitter: “payable” and “msg.value” in Solana](day_23/README.md)
 - [Day 24: Authorizing various wallets to write to an account: "Pranking tx.origin"](day_24/README.md)
+- [Day 25: PDA vs Keypair Accounts](day_25/README.md)
 
 ## Setup
 
