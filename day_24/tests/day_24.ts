@@ -1,6 +1,11 @@
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { Day24 } from "../target/types/day_24";
+import chai from "chai";
+import chaiAsPromised from "chai-as-promised";
+
+chai.use(chaiAsPromised);
+const expect = chai.expect;
 
 // this airdrops sol to an address
 async function airdropSol(publicKey, amount) {
@@ -85,7 +90,7 @@ describe("day_24", () => {
     console.log(`Bob has ${(await program.account.player.fetch(playerBob)).points} points`)
   });
 
-  it("should prevent Alice from transferring more points than she currently has", async () => {
+  it("should prevent Alice from transferring more points than her balance", async () => {
     const alice = anchor.web3.Keypair.generate();
     const bob = anchor.web3.Keypair.generate();
 
@@ -110,11 +115,13 @@ describe("day_24", () => {
     }).signers([bob]).rpc();
 
     // Alice transfers 15 points to Bob, which exceeds her points balance of 10
-    await program.methods.transferPoints(15).accounts({
+    const transferToBob = program.methods.transferPoints(15).accounts({
       from: playerAlice,
       to: playerBob,
       authority: alice.publicKey,
     }).signers([alice]).rpc();
+
+    await expect(transferToBob).to.be.eventually.rejected;
 
     console.log(`Alice has ${(await program.account.player.fetch(playerAlice)).points} points`);
     console.log(`Bob has ${(await program.account.player.fetch(playerBob)).points} points`)
@@ -155,18 +162,22 @@ describe("day_24", () => {
     }).signers([mallory]).rpc();
 
     // This will throw an error
-    await program.methods.transferPoints(5).accounts({
+    const stealFromAlice = program.methods.transferPoints(5).accounts({
       from: playerAlice,
       to: playerMallory,
       authority: mallory.publicKey,
     }).signers([mallory]).rpc();
 
+    await expect(stealFromAlice).to.be.eventually.rejected;
+
     // This will also throw an error
-    await program.methods.transferPoints(5).accounts({
+    const stealFromBob = program.methods.transferPoints(5).accounts({
       from: playerBob,
       to: playerMallory,
       authority: mallory.publicKey,
     }).signers([mallory]).rpc();
+
+    await expect(stealFromBob).to.be.eventually.rejected;
 
     console.log(`Alice has ${(await program.account.player.fetch(playerAlice)).points} points`);
     console.log(`Bob has ${(await program.account.player.fetch(playerBob)).points} points`)
