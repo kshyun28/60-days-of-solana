@@ -32,6 +32,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 24: Authorizing various wallets to write to an account: "Pranking tx.origin"](day_24/README.md)
 - [Day 25: PDA vs Keypair Accounts](day_25/README.md)
 - [Day 26: Understanding Account Ownership in Solana: Transferring SOL out of a PDA](day_26/README.md)
+- [Day 27: init_if_needed and the Reinitialization Attack](day_27/README.md)
 
 ## Setup
 
