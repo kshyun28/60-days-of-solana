@@ -34,6 +34,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 26: Understanding Account Ownership in Solana: Transferring SOL out of a PDA](day_26/README.md)
 - [Day 27: init_if_needed and the Reinitialization Attack](day_27/README.md)
 - [Day 28: Multicall in Solana: Batching Transactions](day_28/README.md)
+- [Day 29: Owner vs Authority](day_29/README.md)
 
 ## Setup
 
