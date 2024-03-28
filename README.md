@@ -33,6 +33,7 @@ My attempt at learning [Solana](https://solana.com/) [program (smart contract)](
 - [Day 25: PDA vs Keypair Accounts](day_25/README.md)
 - [Day 26: Understanding Account Ownership in Solana: Transferring SOL out of a PDA](day_26/README.md)
 - [Day 27: init_if_needed and the Reinitialization Attack](day_27/README.md)
+- [Day 28: Multicall in Solana: Batching Transactions](day_28/README.md)
 
 ## Setup
 
@@ -59,6 +60,9 @@ Here is a list of common issues that I've encountered while going through the tu
   2.  Build Anchor program: `anchor build`
   3.  Sync keys: `anchor keys sync`
   4.  Redeploy or retest: `anchor deploy` or `anchor test`
+
+- [error: package `solana-program v1.18.0` cannot be built because it requires rustc 1.72.0 or newer, while the currently active rustc version is 1.68.0-dev](https://github.com/solana-labs/solana/issues/34987)
+- [error: package `solana-program v1.18.8` cannot be built because it requires rustc 1.75.0 or newer, while the currently active rustc version is 1.72.0-dev](https://stackoverflow.com/questions/78214388/error-could-not-find-solana-cargo-build-sbf-in-registry-crates-io-with-vers)
 
 ## References
 
