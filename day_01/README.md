@@ -34,7 +34,7 @@ anchor build
 
 ## Troubleshooting and References
 
-- [error: package `solana-program v18.18.0` cannot be built because it requires rustc 1.72.0 or newer, while the currently active rustc version is 1.68.0-dev](https://github.com/solana-labs/solana/issues/34987)
+- [error: package `solana-program v1.18.0` cannot be built because it requires rustc 1.72.0 or newer, while the currently active rustc version is 1.68.0-dev](https://github.com/solana-labs/solana/issues/34987)
 - [error: use of unstable library feature `build_hasher_simple_hash_one`](https://solana.stackexchange.com/questions/8800/error-use-of-unstable-library-feature-build-hasher-simple-hash-one)
 - [Solana devnet/testnet SOL airdrop](https://solana.com/developers/guides/getstarted/solana-token-airdrop-and-faucets)
 - [Solana deploy "account data too small for instruction"](https://stackoverflow.com/questions/71267943/solana-deploy-account-data-too-small-for-instruction)
