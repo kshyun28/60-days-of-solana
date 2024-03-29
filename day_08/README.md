@@ -1,4 +1,4 @@
-# Day 8: Understanding function-like macros in Rust
+# Day 8: Rust function-like procedural Macros
 
 [Day 8](https://www.rareskills.io/post/rust-function-like-macro) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 
@@ -10,6 +10,15 @@
 4. Build Anchor program: `anchor build`
 5. Sync program_id with Anchor key: `anchor keys sync`
 6. Run tests: `anchor test --skip-local-validator`
+
+## Notes
+
+- Rust functions cannot accept an arbitrary number of arguments.
+- Rust `function-like macros` are identified by the presence of a `!` symbol.
+  - examples are:
+    - `println!()`
+    - `msg!()`
+- A Rust `macro` takes Rust code as input and programatically expands it into more Rust code.
 
 ## References
 
