@@ -1,4 +1,4 @@
-# Day 4: Anchor function magic and the Interface Definition Language
+# Day 4: Require, Revert, and Custom Errors in Solana
 
 [Day 4](https://www.rareskills.io/post/solana-require-macro) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 
@@ -10,6 +10,16 @@
 4. Build Anchor program: `anchor build`
 5. Sync program_id with Anchor key: `anchor keys sync`
 6. Run tests: `anchor test --skip-local-validator`
+
+## Notes
+
+- When stopping transactions with invalid parameters:
+  - `Ethereum` triggers a `revert`
+  - while `Solana` returns an `error`.
+- `require!` macro can be used as an alternative to `if statements`.
+- Solana programs should always return an `Ok(())` or an `Error`.
+  - All functions in Solana have a return type of `Result<()>`.
+- In Anchor, errors are an enum with the `#[error_code]` attribute.
 
 ## Exercises
 
