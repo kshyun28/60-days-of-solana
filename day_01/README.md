@@ -1,4 +1,4 @@
-# Day 1: Hello World (and troubleshooting Solana installation)
+# Day 1: Solana Hello World (Installation and Troubleshooting)
 
 [Day 1](https://www.rareskills.io/post/hello-world-solana) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

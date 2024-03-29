@@ -1,4 +1,4 @@
-# Day 14: tx.origin, msg.sender, and onlyOwner in Solana
+# Day 14: Tx.origin, msg.sender, and onlyOwner in Solana: identifying the caller
 
 [Day 14](https://www.rareskills.io/post/msg-sender-solana) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

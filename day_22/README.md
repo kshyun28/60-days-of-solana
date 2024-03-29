@@ -1,4 +1,4 @@
-# Day 22: More differences: modifiers, view pure, payable, and fallback in Solana
+# Day 22: Function modifiers (view, pure, payable) and fallback functions in Solana: why they don't exist
 
 [Day 22](https://www.rareskills.io/post/solidity-function-types-solana) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

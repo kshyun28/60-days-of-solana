@@ -1,4 +1,4 @@
-# Day 16: Accounts in Solana
+# Day 16: Initializing Accounts in Solana and Anchor
 
 [Day 16](https://www.rareskills.io/post/solana-initialize-account) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

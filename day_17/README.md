@@ -1,4 +1,4 @@
-# Day 17: Writing to storage
+# Day 17: Solana counter tutorial: reading and writing data to accounts
 
 [Day 17](https://www.rareskills.io/post/solana-counter-program) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

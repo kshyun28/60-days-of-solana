@@ -1,4 +1,4 @@
-# Day 19: Creating mappings and nested mappings in Solana
+# Day 19: Creating “mappings” and “nested mapping” in Solana
 
 [Day 19](https://www.rareskills.io/post/solana-solidity-mapping) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

@@ -1,4 +1,4 @@
-# Day 23: Building a payment splitter: “payable” and “msg.value” in Solana
+# Day 23: Transferring SOL and building a payment splitter: "msg.value" in Solana
 
 [Day 23](https://www.rareskills.io/post/anchor-transfer-sol) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

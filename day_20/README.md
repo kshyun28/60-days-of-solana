@@ -1,4 +1,4 @@
-# Day 20: Cost of storage, maximum storage size, and account resizing
+# Day 20: Cost of storage, maximum storage size, and account resizing in Solana
 
 [Day 20](https://www.rareskills.io/post/solana-account-rent) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

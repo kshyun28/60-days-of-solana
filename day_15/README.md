@@ -1,4 +1,4 @@
-# Day 15: Transaction fees and compute units
+# Day 15: Introduction to Solana Compute Units and Transaction Fees
 
 [Day 15](https://www.rareskills.io/post/solana-compute-unit-price) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 

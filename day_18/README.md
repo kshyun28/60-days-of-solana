@@ -1,4 +1,4 @@
-# Day 18: Reading Accounts from Typescript — an alternative to public variables and view functions
+# Day 18: Read account data with Solana web3.js and Anchor
 
 [Day 18](https://www.rareskills.io/post/solana-read-account-data) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 
@@ -11,7 +11,8 @@
 5. Sync program_id with Anchor key: `anchor keys sync`
 6. Run tests: `anchor test --skip-local-validator`
 
-> Note: to retest the programs and avoid `failed to send transaction: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x0` error, comment out the `initialize` function call. 
+> Note: to retest the programs and avoid `failed to send transaction: Transaction simulation failed: Error processing Instruction 0: custom program error: 0x0` error, comment out the `initialize` function call.
+
 ```ts
 // await program.methods.initialize().accounts(...).rpc();
 ```

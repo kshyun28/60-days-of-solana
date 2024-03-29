@@ -1,4 +1,4 @@
-# Day 13: Native Programs: Sysvars
+# Day 13: Solana logs, “events,” and transaction history
 
 [Day 13](https://www.rareskills.io/post/solana-logs-transaction-history) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 
