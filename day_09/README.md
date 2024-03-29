@@ -18,6 +18,14 @@ There are two Cargo packages here that cover the two examples:
 
 To test the examples, just go to the folder `cd example_x`, then run `cargo run src/main.rs`.
 
+## Notes
+
+- Rust `impl` are used to create `functions` that operate on a `struct`.
+- Rust `Traits` enforces an `impl` to implement certain functions.
+- An `attribute-like macro` takes in a `struct` and can completely rewrite it.
+- A `derive macro` augments a struct with additional functions.
+- `macros` allow Anchor to hide complexity.
+
 ## References
 
 - [cargo new](https://doc.rust-lang.org/cargo/commands/cargo-new.html)
