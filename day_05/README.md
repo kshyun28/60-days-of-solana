@@ -1,4 +1,4 @@
-# Day 5: Where is the constructor? About anchor deploy
+# Day 5: Solana programs are upgradeable and do not have constructors
 
 [Day 5](https://www.rareskills.io/post/solana-anchor-deploy) of [RareSkills Solana Course](https://www.rareskills.io/solana-tutorial).
 
@@ -12,6 +12,13 @@
 6. Sync program_id with Anchor key: `anchor keys sync`
 7. Run tests: `anchor test --skip-local-validator --skip-deploy`
 
+## Notes
+
+- Solana programs don't have `constructors`.
+- Solana programs are `mutable (upgradeable)` by default.
+  - Solana doesn't need `delegatecall`, since programs can be upgraded.
+- Solana programs don't have `immutable variables`.
+  
 ## References
 
 - [anchor deploy](https://www.anchor-lang.com/docs/cli#deploy)
