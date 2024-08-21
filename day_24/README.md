@@ -15,7 +15,7 @@
 
 ### Signers
 
-- Anchor will look at the signature of the transaction and make sure the signature the address passed in the `Signer` type.
+- Anchor will look at the signature of the transaction and make sure the signature matches the address passed in the `Signer` type.
 - `Unknown Signer` error occurs when the signer of the transaction does not match the public key passed to `Signer`.
   - when you remove `.signers([...])`, Anchor will use the default signer.
   - when you don't pass a `public key`, Anchor will use the default signer.
